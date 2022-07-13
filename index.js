@@ -7,8 +7,6 @@ const deleteBtn = document.getElementById("delete-btn")
 const savetabBtn = document.getElementById("savetab-btn")
 const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
 
-//console.log(leadsFromLocalStorage)
-
 //Stores data over refresh
 if(leadsFromLocalStorage)
 {
